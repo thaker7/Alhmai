@@ -28,8 +28,8 @@
       "description": "اسـم التطبيق اول شي كتبته",
       "value": "",
       "required": false
-    }
-}
+    
+},
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   },{
