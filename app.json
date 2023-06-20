@@ -1,51 +1,89 @@
 {
-  "name": "𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",
-  "description": "سوࢪس حيــاه افضل سوࢪ تيليثون ليبي",
-  "logo": "https://telegra.ph/file/89e5316364eeb1e17e554.jpg",
-  "keywords": [
-    "plugin",
-    "modular",
-    "productivity"
-  ],
-  "repository": "https://github.com/jgk99gto/Caliph-New-",
-  "website": "#TODO",
-  "success_url": "#TODO",
-  
-    "USER_OWNER": {
-      "description": "ضـع هـنا اليوزر", 
-      "value": ""
+    "name": "HaYa ダ ᴍᴜsɪᴄ",
+    "description": "سورس حياه الاول على ليبيا",
+    "logo": "https://graph.org/file/300e2214b4bbf1a72feaa.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "AnonX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "الايبي ايدي مكون من 7 ارقام",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "ايبي هاش المسترج مع الايبي ايدي",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "توكن بوتك لو ماتعرفش كيف تبي تدير بوت ؟",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "حط هنا كود المونجو .",
+        "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority",
+        "required": false
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "اسم بوت الميوزك متاعك",
+        "value": "HaYa ダ ᴍᴜsɪᴄ",
+        "required": true
+      },
+       "USER_CHANNEL": {
+        "description": "يوزر قناتك بدون @",
+        "value": "HL_BG",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ايديك ولو تبي تخلي مطور ثاني معاك خلي مسافه بين ايديك وايديه",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "جلسة بايروجرام v1",
+        "value": "",
+        "required": true
+      },
+        
+      "USER_OWNER": {
+        "description": "يوزر المطور بدون @",
+        "value": "BP_BP",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "مفتاح الهيروكو تلقاه في اعدادات حساب اهيروكو",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "اسم التطبيق يكون انجليزي وكل حروفه سمول",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "ايدي قروب التخزين ولازم يكون بدايته -100",
+        "value": "",
+        "required": true
+      }
     },
-    "BOT_TOKEN": {
-      "description": "ضـع هـنا التوكن",
-      "value": ""   
-    },
-    "OWNER_ID": {
-      "description": "ايدي",
-      "value": "",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "اسـم التطبيق اول شي كتبته",
-      "value": "",
-      "required": false
-    
-},
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
-  },{
-    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
-  },{
-    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
-  },{
-    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
-  },{
-    "url": "heroku/python"
-  }],
-  "stack": "heroku-22"
-}
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
