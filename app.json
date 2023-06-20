@@ -7,27 +7,27 @@
     "modular",
     "productivity"
   ],
-
-    "BOT_TOKEN": {
-      "description": "ضـع هـنا تـوكـن بـوتـك",
+  "repository": "https://github.com/jgk99gto/Caliph-New-",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  
+    "USER_OWNER": {
+      "description": "ضـع هـنا اليوزر", 
       "value": ""
     },
-    "USER_OWNER": {
-      "description": "يوزرك",
-      "value": "",
-      "required": false
+    "BOT_TOKEN": {
+      "description": "ضـع هـنا التوكن",
+      "value": ""   
     },
     "OWNER_ID": {
-      "description": "ايديك",
+      "description": "ايدي",
       "value": "",
       "required": false
     },
-    
- 
-  "addons": [{
-    "plan": "heroku-postgresql",
-    "options": {
-      "version": "12"
+    "HEROKU_APP_NAME": {
+      "description": "اسـم التطبيق اول شي كتبته",
+      "value": "",
+      "required": false
     }
   }],
   "buildpacks": [{
