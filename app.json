@@ -5,11 +5,7 @@
     "keywords": [
     "python3",
     "telegram",
-    "bot",
-    "AnonX",
-    "MusicBot",
-    "telegram-bot",
-    "pyrogram"
+    "telebot"
     ],
     "env": {
       "API_ID": {
@@ -47,11 +43,7 @@
         "value": "",
         "required": true
       },
-      "STRING_SESSION": {
-        "description": "جلسة بايروجرام v1",
-        "value": "",
-        "required": true
-      },
+    
         
       "USER_OWNER": {
         "description": "يوزر المطور بدون @",
@@ -68,12 +60,7 @@
         "value": "",
         "required": false
       },
-      "LOG_GROUP_ID": {
-        "description": "ايدي قروب التخزين ولازم يكون بدايته -100",
-        "value": "",
-        "required": true
-      }
-    },
+    }
     "buildpacks": [
           {
               "url": "heroku/python"
