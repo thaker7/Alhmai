@@ -8,16 +8,6 @@
     "telebot"
     ],
     "env": {
-      "API_ID": {
-        "description": "الايبي ايدي مكون من 7 ارقام",
-        "value": "",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "ايبي هاش المسترج مع الايبي ايدي",
-        "value": "",
-        "required": true
-      },
       "BOT_TOKEN": {
         "description": "توكن بوتك لو ماتعرفش كيف تبي تدير بوت ؟",
         "value": "",
