@@ -7,7 +7,7 @@
     "telegram",
     "telebot"
     ],
-    "env": {
+    "env": 
       "BOT_TOKEN": {
         "description": "توكن بوتك لو ماتعرفش كيف تبي تدير بوت ؟",
         "value": "",
