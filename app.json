@@ -13,23 +13,23 @@
     "env": {
       "BOT_TOKEN": {
         "description": "توكن بوتك لو ماتعرفش كيف تبي تدير بوت ؟",
-        "value": "",
+        "value": "6098937182:AAF8H3rhe2GiboSk3atwQeltAZQCSsUe6LA",
         "required": true
       },
     
        "USER_CHANNEL": {
         "description": "يوزر قناتك بدون @",
-        "value": "HL_BG",
+        "value": "H_M_Dr",
         "required": true
       },
       "OWNER_ID": {
         "description": "ايديك ولو تبي تخلي مطور ثاني معاك خلي مسافه بين ايديك وايديه",
-        "value": "",
+        "value": "5012406813",
         "required": true
       }, 
       "USER_OWNER": {
         "description": "يوزر المطور بدون @",
-        "value": "BP_BP",
+        "value": "IIIlIIv",
         "required": true
       },
       "HEROKU_API_KEY": {
