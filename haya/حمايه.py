@@ -11,7 +11,7 @@ import random
 ssss = OWNER_ID
 app = teleapp.Teleapp(BOT_TOKEN)
 p3 = types.InlineKeyboardMarkup()
-p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",url="t.me/USER_OWNER")
+p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗔𝗹𝗺𝗼𝗿𝘁𝗮𝗴𝗲𝗹",url="t.me/USER_OWNER")
 A1 = types.InlineKeyboardButton(text = "اوامر الحماية .",callback_data="A1")
 A2 = types.InlineKeyboardButton(text = "اوامر التسلية .",callback_data="A2")
 A3 = types.InlineKeyboardButton(text = "اوامر الالعاب .",callback_data="A3")
@@ -457,7 +457,7 @@ def start(message):
 			app.reply_to(message,"""*تم الغاء حظر العضو ↩️ :* [{}](t.me/{}) """.format(f2,t2,vv,bb),disable_web_page_preview=True,parse_mode="markdown")
 	if message.text == "الاوامر" or message.text == "اوامر":
 		p3 = types.InlineKeyboardMarkup()
-		p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",url="t.me/USER_OWNER")
+		p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗔𝗹𝗺𝗼𝗿𝘁𝗮𝗴𝗲𝗹",url="t.me/USER_OWNER")
 		A1 = types.InlineKeyboardButton(text = "اوامر الحماية .",callback_data="A1")
 		A2 = types.InlineKeyboardButton(text = "اوامر التسلية .",callback_data="A2")
 		A3 = types.InlineKeyboardButton(text = "اوامر الالعاب .",callback_data="A3")
@@ -472,7 +472,7 @@ def start(message):
 اختر من الازرار،*
 """.format(f2,t2),disable_web_page_preview=True,parse_mode="markdown",reply_markup=p3)
 	p3 = types.InlineKeyboardMarkup()
-	p5 = types.InlineKeyboardButton( "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",url="t.me/USER_OWNER")
+	p5 = types.InlineKeyboardButton( "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗔𝗹𝗺𝗼𝗿𝘁𝗮𝗴𝗲𝗹",url="t.me/USER_OWNER")
 	p3.add(p5)
 	if message.text == "تمبلر" or message.text == "صور تمبلر" or message.text == "افتار تمبلر":
 		photo_str =  random.randint(74,154)
@@ -481,7 +481,7 @@ def start(message):
 - - - -- - - - - -- - - - -
 CH - @USER_OWNER : @USER_OWNER*""",parse_mode="markdown",reply_to_message_id=message.message_id,reply_markup=p3)
 	p3 = types.InlineKeyboardMarkup()
-	p5 = types.InlineKeyboardButton( "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",url="t.me/USER_OWNER")
+	p5 = types.InlineKeyboardButton( "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗔𝗹𝗺𝗼𝗿𝘁𝗮𝗴𝗲𝗹",url="t.me/USER_OWNER")
 	p3.add(p5)
 	
 	
@@ -561,7 +561,7 @@ CH - @USER_OWNER : @USER_OWNER*""",parse_mode="markdown",reply_to_message_id=mes
 	m = message.text	
 	if m == "التقويم" or m == "تقويم" or m == "السنة" or m == "التاريخ":
 		p3 = types.InlineKeyboardMarkup()
-		p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",url="t.me/USER_OWNER")
+		p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗔𝗹𝗺𝗼𝗿𝘁𝗮𝗴𝗲𝗹",url="t.me/USER_OWNER")
 		
 		p3.add(p5)
 		t = time.strftime("%p%H:%S")
@@ -572,7 +572,7 @@ CH - @USER_OWNER : @USER_OWNER*""",parse_mode="markdown",reply_to_message_id=mes
 	m = message.text
 	if m == "الساعة" or m == "الساعه" or m == "الوقت":
 		p3 = types.InlineKeyboardMarkup()
-		p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",url="t.me/USER_OWNER")
+		p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗔𝗹𝗺𝗼𝗿𝘁𝗮𝗴𝗲𝗹",url="t.me/USER_OWNER")
 		p3.add(p5)
 		t = time.strftime("%p %H:%S")
 		app.reply_to(message,f"الساعة ⇜{t}",reply_markup=p3)	
@@ -593,7 +593,7 @@ CH - @USER_OWNER : @USER_OWNER*""",parse_mode="markdown",reply_to_message_id=mes
 	     	
 	if message.text == "ذ" or message.text == "ذكر" or message.text == "ايه" or message.text == "اية" or message.text == "اذكار":
 	  p3 = types.InlineKeyboardMarkup()
-	  p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",url="t.me/USER_OWNER")
+	  p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗔𝗹𝗺𝗼𝗿𝘁𝗮𝗴𝗲𝗹",url="t.me/USER_OWNER")
 	  url = "https://ApiAzkar.amoapi.repl.co"
 	  msg = message.text
 	  p3.add(p5)
@@ -605,27 +605,27 @@ CH - @USER_OWNER : @USER_OWNER*""",parse_mode="markdown",reply_to_message_id=mes
 	if message.text == 'كت' or message.text == 'كت تويت' or message.text == "تت":
 
 	    	p3 = types.InlineKeyboardMarkup()
-	    	p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",url="t.me/USER_OWNER")
+	    	p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗔𝗹𝗺𝗼𝗿𝘁𝗮𝗴𝗲𝗹",url="t.me/USER_OWNER")
 	    	p4 = types.InlineKeyboardButton(text ='↫التالي↬', callback_data= 'c2')
 	    	r = random.choice(abod)
 	    	p3.add(p4)
 	    	p3.add(p5)
 	    	app.reply_to(message,f"""*{r}
 - - - - - - - - - - - - - 
-@hl_bg*""",parse_mode="markdown",reply_markup=p3)
+@Almortagel_12*""",parse_mode="markdown",reply_markup=p3)
 @app.callback_query_handler(func= lambda call : True)
 def callback_data(call):
   
   if call.data == "c2":
   	r = random.choice(abod)
   	p3 = types.InlineKeyboardMarkup()
-  	p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼",url="t.me/USER_OWNER")
+  	p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗔𝗹𝗺𝗼𝗿𝘁𝗮𝗴𝗲𝗹",url="t.me/USER_OWNER")
   	p4 = types.InlineKeyboardButton(text ='↫التالي↬', callback_data= 'c2')
   	p3.add(p4)
   	p3.add(p5)
   	app.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text=f"""*{r}
 - - - - - - - - - - - - - -
-@hl_bg*""",reply_markup=p3,parse_mode="markdown")
+@Almortagel_12*""",reply_markup=p3,parse_mode="markdown")
   p3 = types.InlineKeyboardMarkup()
   s0 = types.InlineKeyboardButton(text = "رجوع",callback_data="s0")
   A1 = types.InlineKeyboardButton(text = "اوامر الحماية .",callback_data="A1")
