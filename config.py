@@ -13,8 +13,8 @@ load_dotenv()
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "cr")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Almortagel")
 
 OWNER_ID = list(
-  map(int, getenv("OWNER_ID", "").split())) + [5369501919]
-USER_OWNER = getenv("USER_OWNER","BP_BP") 
+  map(int, getenv("OWNER_ID", "").split())) + [5089553588]
+USER_OWNER = getenv("USER_OWNER","Almortagel_12") 
