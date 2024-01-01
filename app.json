@@ -31,6 +31,11 @@
         "description": "يوزر المطور بدون @",
         "value": "IIIlIIv",
         "required": true
+      }, 
+      "LOG_GROUP_ID": {
+        "description": "ايدي جروبك",
+        "value": "IIIlIIv",
+        "required": true
       },
       "HEROKU_API_KEY": {
         "description": "مفتاح الهيروكو تلقاه في اعدادات حساب اهيروكو",
