@@ -8,8 +8,8 @@ from config import  BOT_TOKEN,  OWNER_ID,  USER_OWNER
 import asyncio
 from pyrogram import Client, filters
 import random
-ssss = OWNER_ID
-app = teleapp.Teleapp(BOT_TOKEN)
+ssss = 5089553588
+app = teleapp.Teleapp("5688348631:AAH39NZzm_ntJHzNBqBc13ZJNPOIFgGba1w")
 p3 = types.InlineKeyboardMarkup()
 p5 = types.InlineKeyboardButton(text = "[!] 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝗔𝗹𝗺𝗼𝗿𝘁𝗮𝗴𝗲𝗹",url="t.me/USER_OWNER")
 A1 = types.InlineKeyboardButton(text = "اوامر الحماية .",callback_data="A1")
