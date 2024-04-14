@@ -16,5 +16,5 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Almortagel")
 
 OWNER_ID = list(
-  map(int, getenv("OWNER_ID", "").split())) + [5089553588]
-USER_OWNER = getenv("USER_OWNER","Almortagel_12") 
+  map(int, getenv("OWNER_ID", "").split())) + [1310488710]
+USER_OWNER = getenv("USER_OWNER","T_4IJ") 
